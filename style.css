@@ -28,12 +28,21 @@ html, body {
     border-color: black;
     font-size: 46px;
     text-align: center;   
-    
+    animation: example 5s infinite alternate;
 }
 
+@keyframes example {
+    0%   {color: red;}
+    20%  {color: green;}
+    40%  {color: blue;}
+    60%  {color: blueviolet;}
+    80%  {color: orange;}
+    100% {color: aquamarine;}
+}
 
 .hex_text {
     margin-top: 30px;
+    
 }
 
 button{
